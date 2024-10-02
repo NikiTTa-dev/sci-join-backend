@@ -26,7 +26,7 @@ internal class SwaggerGenOptionsSetup
         {
             Version = fileVersionInfo.ProductVersion,
             // TODO:
-            Title = "Swagger Setup Example",
+            Title = "Swagger Setup",
             Description = "API documentation for the project.",
         });
         options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
